@@ -1,5 +1,7 @@
 # DemoXamarinApp
 Demo de aplicacion libre en Xamarin, con servicios web y base de datos NoSQL, usando como base Xamarin Forms Master/Detail.
+Aplicacion con login usuario, visor de dispositivos por usuario, eliminacion y creacion. pagina de acerca.
+
 
 Xamarin Visual Studio 2015
 
