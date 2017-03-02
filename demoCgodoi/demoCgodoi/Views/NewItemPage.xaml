@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="demoCgodoi.Views.NewItemPage"
+		Title="Nuevo Dispositivo">
+	<ContentPage.ToolbarItems>
+		<ToolbarItem Text="Guardar" Clicked="Save_Clicked" />
+	</ContentPage.ToolbarItems>
+	<ContentPage.Content>
+		<StackLayout Spacing="20" Padding="20" VerticalOptions="StartAndExpand" >
+			<Label Text="Nombre" FontSize="Medium" />
+			<Entry Text="{Binding Dispositivo.Nombre}" FontSize="Small" />
+			<Label Text="Detalle" FontSize="Medium" />
+			<Editor Text="{Binding Dispositivo.Descripcion}" FontSize="Small" Margin="0" />
+            <Label x:Name="messageLabel" />
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
