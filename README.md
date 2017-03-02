@@ -4,6 +4,7 @@ Demo de aplicacion libre en Xamarin, con servicios web y base de datos NoSQL, us
 Xamarin Visual Studio 2015
 
 WEB API (ASP.NET en Windows Azure) JSON
+
 Usuarios
   http://bwireddemocgodoi3.azurewebsites.net/api/Usuario
 
@@ -13,3 +14,8 @@ Dispositivos
 
 Base de datos NoSQL MONGODB
   mongodb://democgodoi:democgodoi@ds054999.mlab.com:54999/democgodoi
+	
+	
+Usuario DEMO
+cgodoi/demo1
+demo/demo1
